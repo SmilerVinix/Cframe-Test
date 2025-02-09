@@ -37,7 +37,7 @@ textbox.FocusLost:Connect(function(enterPressed)
 
         -- Give the player the Dance tool
         local tool = Instance.new("Tool")
-        tool.Name = "Dance"
+        tool.Name = "Random Cframe (Spam the tool)"
         tool.RequiresHandle = false
         tool.Parent = player.Backpack
 
@@ -64,7 +64,7 @@ textbox.FocusLost:Connect(function(enterPressed)
 
         -- Fake Badge Notification
         game.StarterGui:SetCore("SendNotification", {
-            Title = "Badge Earned!";
+            Title = "Unpatched";
             Text = "Script by TS_DEVS";
             Duration = 5;
         })
